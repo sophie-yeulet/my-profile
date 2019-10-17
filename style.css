@@ -1,0 +1,129 @@
+body {
+	background-image: url('images/lemons.jpg');
+	color: #84BCDA;
+	font-family: 'Source Code Pro', monospace;
+	text-align: center;
+	font-size: 25px;
+	line-height: 50px;
+}
+
+h1 {
+	font-size: 45px;
+	letter-spacing: 20px;
+	line-height: 1.8;
+}
+
+h2 {
+	letter-spacing: 25px;
+	font-size: 25px;
+	line-height: 1.5;
+	color: #484c7f;
+}
+
+ul {
+	line-height: 2;
+	letter-spacing: 15px;
+	color:#484c7f;
+}
+
+h1,h2,h3 {
+	color: #067BC2;
+	font-weight: lighter;
+	font-family: 'Abril Fatface', cursive;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover{
+	color: #067BC2;
+	 transition: color 0.3s ease;
+} 
+
+.btn-blue:hover {
+	background-color: #D56062;
+	color: white;
+	border-radius: 5px;
+}
+
+.container  {
+	background-color: #D56062;
+	margin: 120px;
+	padding: 5px;
+	border-radius: 5px;
+	box-shadow: 1px 10px 30px rgba(0,0,0, 0.2);
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px 60px;
+	margin: 60px 60px;
+	box-shadow: 1px 10px 30px rgba(0,0,0, 0.2);
+	border-radius: 5px;
+	border: 2px solid #f37748;
+	text-align: center;
+}
+
+.card-white:hover {
+	color: #067BC2;
+	transition: 0.3s ease;
+}
+#photo {
+	border-radius: 50%;
+}
+
+.margin {
+	margin: 120px 300px;
+	padding: 30px;
+}
+.list-horizontal {
+	list-style-type: none;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+	#photo {
+	width: 170px;
+	height: 170px;
+	}
+	.margin {
+	width:300px;
+	margin-left: 85px;
+	}
+}
+
+@media (max-width: 540px){
+	.container {
+	width: 300px;
+	margin: 20px;
+	}
+	#photo {
+	width: 110px;
+	height: 110px;
+	}
+	.margin {
+	margin-left: 45px;
+	width:160px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
